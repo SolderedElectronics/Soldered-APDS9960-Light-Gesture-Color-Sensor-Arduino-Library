@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['easyc_28',['EasyC',['../class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd',1,'EasyC']]]
+  ['begin_85',['begin',['../class_a_p_d_s9960.html#a5214e1362ede4ca75439628fc9fb5348',1,'APDS9960::begin()'],['../class_easy_c.html#a1b5a82b8a59daea79de76e496457e176',1,'EasyC::begin()'],['../class_easy_c.html#a9e71467da6f38cbe47b10e96694a4f91',1,'EasyC::begin(uint8_t _address)']]]
 ];

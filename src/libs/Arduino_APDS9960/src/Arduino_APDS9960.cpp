@@ -84,7 +84,9 @@ void APDS9960::end()
 
     _gestureEnabled = false;
 
+#ifdef __AVR__
     _wire.end();
+#endif
 }
 
 // Sets the LED current boost value:

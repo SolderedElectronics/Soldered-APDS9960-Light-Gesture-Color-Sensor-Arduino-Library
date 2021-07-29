@@ -306,7 +306,7 @@ bool APDS9960::read(uint8_t reg, uint8_t *val)
 {
     if (!write(reg))
         return false;
-    _wire.requestFrom(APDS9960_ADDR, 1);
+    _wire.requestFrom((int)APDS9960_ADDR, (int)1);
     if (!_wire.available())
         return false;
     *val = _wire.read();

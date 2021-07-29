@@ -1,13 +1,14 @@
-# NAZIV PROIZVODA Arduino library
+# APDS 9960 Gesture, Light and Color Sensor Arduino library
 
 [![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-Generic-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/compile_test.yml)
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml)
 
-| ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![APDS 9960 Gesture, Light and Color Sensor](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [NAZIV PROIZVODA](https://www.solde.red/SKU)                                                            |
+| [APDS 9960 Gesture, Light and Color Sensor](https://www.solde.red/333047)                                                            |
 
-OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/easyC). 
+APDS 9960 Gesture, Light and Color Sensor offers ambient light and color measuring, proximity detection, and touchless gesture sensing.
+Compliant to [easyC ecosystem](https://www.soldered.com/easyC). 
 
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
@@ -15,13 +16,13 @@ OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/easyC).
 - ***other*** - *keywords* file highlights function words in your IDE, *library.properties* enables implementation with Arduino Library Manager.
 
 ### Hardware design
-You can find hardware design for this board in NAZIV PROIZVODA hardware repository
+You can find hardware design for this board in APDS 9960 Gesture, Light and Color Sensor hardware repository
 
 ### Documentation
 
 Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-Generic-Arduino-Library/).
 
-- Tutorial for using the NAZIV PROIZVODA board
+- Tutorial for using the APDS 9960 Gesture, Light and Color Sensor board
 - Installing an Arduino library
 
 ### About Soldered
@@ -37,7 +38,7 @@ At Soldered, we design and manufacture a wide selection of electronic products t
 
 ### Original source
 ​
-This library is possible thanks to original [arduino-mcp23017](https://github.com/blemasle/arduino-mcp23017) library. Thank you, blemasle. 
+This library is possible thanks to original [Arduino_APDS9960](https://github.com/arduino-libraries/Arduino_APDS9960) library. Thank you, Arduino-libraries. 
 
 
 ### Open-source license

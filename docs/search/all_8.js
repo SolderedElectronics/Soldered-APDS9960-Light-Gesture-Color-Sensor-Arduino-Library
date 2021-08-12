@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['initializenative_49',['initializeNative',['../class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998',1,'EasyC']]]
+  ['proximityavailable_42',['proximityAvailable',['../class_a_p_d_s9960.html#aad09bc606e4f99095161a71b45901d44',1,'APDS9960']]]
 ];

@@ -1,19 +1,20 @@
-/*
-  APDS-9960 - Gesture Sensor
-
-  This example reads gesture data from the on-board APDS-9960 sensor and prints any detected gestures to the Serial
-  Monitor.
-
-  Gesture directions are as follows:
-  - UP:    from USB connector towards antenna
-  - DOWN:  from antenna towards USB connector
-  - LEFT:  from analog pins side towards digital pins side
-  - RIGHT: from digital pins side towards analog pins side
-
-  This example code is in the public domain.
-
-  Modified by soldered.com for https://solde.red/333047
-*/
+/**
+ **************************************************
+ *
+ * @file        ColorSensor.ino
+ * @brief       This example reads gesture data from the on-board APDS-9960 
+ *              sensor and prints any detected gestures to the Serial Monitor.
+ *
+ *              Gesture directions are as follows:
+ *              - UP:    from USB connector towards antenna
+ *              - DOWN:  from antenna towards USB connector
+ *              - LEFT:  from analog pins side towards digital pins side
+ *              - RIGHT: from digital pins side towards analog pins side
+ *    
+ *              Product: https://solde.red/333047
+ *
+ *              Modified by soldered.com
+ ***************************************************/
 
 #include "APDS9960-SOLDERED.h"
 
@@ -21,13 +22,14 @@ APDS_9960 APDS;
 
 void setup()
 {
-    Serial.begin(115200);
-    while (!Serial)
+    Serial.begin(115200); //Begin serial communication with PC
+    while (!Serial) //Wait until serial becomes active
         ;
 
-    if (!APDS.begin())
+    if (!APDS.begin())  //Begin communication with sensor
     {
         Serial.println("Error initializing APDS-9960 sensor!");
+      while(1); //Loop forever if sensor is not available
     }
 
     // for setGestureSensitivity(..) a value between 1 and 100 is required.
@@ -46,7 +48,7 @@ void loop()
         // a gesture was detected, read and print to Serial Monitor
         int gesture = APDS.readGesture();
 
-        switch (gesture)
+        switch (gesture)  //Determine which gesture was captured
         {
         case GESTURE_UP:
             Serial.println("Detected UP gesture");

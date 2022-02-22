@@ -28,12 +28,6 @@ var NAVTREE =
     [ "APDS 9960 Gesture, Light and Color Sensor Arduino library", "index.html", null ],
     [ "ArduinoAPDS9960 library", "md_src_libs__arduino__a_p_d_s9960_docs_api.html", [
       [ "Methods", "md_src_libs__arduino__a_p_d_s9960_docs_api.html#autotoc_md8", [
-        [ "Repository Contents", "index.html#autotoc_md1", null ],
-        [ "Hardware design", "index.html#autotoc_md2", null ],
-        [ "Documentation", "index.html#autotoc_md3", null ],
-        [ "About Soldered", "index.html#autotoc_md4", null ],
-        [ "Original source", "index.html#autotoc_md5", null ],
-        [ "Open-source license", "index.html#autotoc_md6", null ],
         [ "<tt>begin()</tt>", "md_src_libs__arduino__a_p_d_s9960_docs_api.html#autotoc_md9", [
           [ "Syntax", "md_src_libs__arduino__a_p_d_s9960_docs_api.html#autotoc_md10", null ],
           [ "Parameters", "md_src_libs__arduino__a_p_d_s9960_docs_api.html#autotoc_md11", null ],

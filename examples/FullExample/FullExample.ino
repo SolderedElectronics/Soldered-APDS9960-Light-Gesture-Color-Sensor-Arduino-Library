@@ -1,16 +1,17 @@
-/*
-  APDS-9960 - All sensor data from APDS-9960
-
-  This example reads all data from the on-board APDS-9960 sensor:
-   - color RGB (red, green, blue)
-   - proximity
-   - gesture
-  and prints updates to the Serial Monitor every 100 ms.
-
-  This example code is in the public domain.
-
-  Modified by soldered.com for https://solde.red/333047
-*/
+/**
+ **************************************************
+ *
+ * @file        ColorSensor.ino
+ * @brief       This example reads all data from the on-board APDS-9960 sensor:
+ *              - color RGB (red, green, blue)
+ *              - proximity
+ *              - gesture
+ *              and prints updates to the Serial Monitor every 100 ms.
+ *    
+ *              Product: https://solde.red/333047
+ *
+ *              Modified by soldered.com
+ ***************************************************/
 
 #include "APDS9960-SOLDERED.h"
 
@@ -40,14 +41,14 @@ void loop()
     // Check if a proximity reading is available.
     if (APDS.proximityAvailable())
     {
-        proximity = APDS.readProximity();
+        proximity = APDS.readProximity(); //Read proximity
     }
 
     // Check if a gesture reading is available
     if (APDS.gestureAvailable())
     {
-        int gesture = APDS.readGesture();
-        switch (gesture)
+        int gesture = APDS.readGesture(); //Read gesture
+        switch (gesture)  //Determine which gesture was captured
         {
         case GESTURE_UP:
             Serial.println("Detected UP gesture");
@@ -74,7 +75,7 @@ void loop()
     // Check if a color reading is available
     if (APDS.colorAvailable())
     {
-        APDS.readColor(r, g, b);
+        APDS.readColor(r, g, b);  //Read colors
     }
 
     // Print updates every 100 ms

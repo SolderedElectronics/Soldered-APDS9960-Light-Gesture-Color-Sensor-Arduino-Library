@@ -1,4 +1,4 @@
-# NAZIV PROIZVODA Arduino library
+# Color and gesture sensor APDS-9960 breakout Arduino library
 
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml)
 

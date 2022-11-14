@@ -10,10 +10,10 @@ The APDS-9960 is a small sensor that measures four things at once. It is possibl
 
 All gestures are detected at a distance of 10 to 20cm  and it has built-in UV and IR filters to make sure it won't be confused by other sources of light. Connected using well-known I2C communication.
 
-• Voltage: 3.3V
-• Voltage I2C: 3.3V
-• Connectors: 2x easyC
-• Dimensions: 22 x 36 mm(https://www.soldered.com/en/easyC). 
+- Voltage: 3.3V
+- Voltage I2C: 3.3V
+- Connectors: 2x easyC
+- Dimensions: 22 x 36 mm(https://www.soldered.com/en/easyC). 
 
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)

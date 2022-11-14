@@ -2,7 +2,7 @@
 
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml)
 
-| ![Color and gesture sensor APDS-9960 breakout](https://github.com/SolderedElectronics/Color---gesture-sensor-APDS-9960-breakout-hardware-design/blob/main/OUTPUTS/V1.1.1/Color%20and%20gesture%20ADPS-9960%20breakout.jpg) |
+| ![Color and gesture sensor APDS-9960 breakout](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
 | [Color and gesture sensor APDS-9960 breakout](https://www.solde.red/333002)                                                            |
 

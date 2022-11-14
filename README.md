@@ -13,7 +13,8 @@ All gestures are detected at a distance of 10 to 20cm  and it has built-in UV 
 - Voltage: 3.3V
 - Voltage I2C: 3.3V
 - Connectors: 2x easyC
-- Dimensions: 22 x 36 mm(https://www.soldered.com/en/easyC). 
+- Dimensions: 22 x 36 mm
+https://www.soldered.com/en/easyC
 
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)

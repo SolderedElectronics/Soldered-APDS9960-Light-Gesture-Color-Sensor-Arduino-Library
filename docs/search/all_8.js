@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['naziv_20proizvoda_20arduino_20library_0',['NAZIV PROIZVODA Arduino library',['../index.html',1,'']]]
+  ['proximityavailable_0',['proximityAvailable',['../class_a_p_d_s9960.html#aad09bc606e4f99095161a71b45901d44',1,'APDS9960']]]
 ];

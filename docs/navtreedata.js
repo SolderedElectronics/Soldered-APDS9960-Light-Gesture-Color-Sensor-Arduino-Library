@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "APDS9960 Arduino Library by Soldered", "index.html", [
-    [ "NAZIV PROIZVODA Arduino library", "index.html", [
+    [ "Color and gesture sensor APDS-9960 breakout Arduino library", "index.html", [
       [ "Have fun!", "index.html#autotoc_md8", null ]
     ] ],
     [ "Classes", "annotated.html", [

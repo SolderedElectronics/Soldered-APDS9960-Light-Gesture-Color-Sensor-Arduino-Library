@@ -6,14 +6,14 @@
 | :---------------------------------------------------------------------------------------------: |
 | [Color and gesture sensor APDS-9960 breakout](https://www.solde.red/333002)                                                            |
 
-OPIS PROIZVODA + LINK NA [The APDS-9960 is a small sensor that measures four things at once. It is possible to recognize the movements you make in front of it (up, down, left, right) and it can identify the vicinity of the object, so you have two more movements: to the sensor and from the sensor. In addition, it has an ambient light sensor and a color sensor which gives red, green, and blue (RGB) colors as output. This sensor with many features was even built into the Samsung Galaxy S5 smartphone.
+The APDS-9960 is a small sensor that measures four things at once. It is possible to recognize the movements you make in front of it (up, down, left, right) and it can identify the vicinity of the object, so you have two more movements: to the sensor and from the sensor. In addition, it has an ambient light sensor and a color sensor which gives red, green, and blue (RGB) colors as output. This sensor with many features was even built into the Samsung Galaxy S5 smartphone.
 
 All gestures are detected at a distance of 10 to 20cm  and it has built-in UV and IR filters to make sure it won't be confused by other sources of light. Connected using well-known I2C communication.
 
 • Voltage: 3.3V
 • Voltage I2C: 3.3V
 • Connectors: 2x easyC
-• Dimensions: 22 x 36 mm](https://www.soldered.com/en/easyC). 
+• Dimensions: 22 x 36 mm(https://www.soldered.com/en/easyC). 
 
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
@@ -21,7 +21,7 @@ All gestures are detected at a distance of 10 to 20cm  and it has built-in UV 
 - ***other*** - *keywords* file highlights function words in your IDE, *library.properties* enables implementation with Arduino Library Manager.
 
 ### Hardware design
-You can find hardware design for this board in *Color and gesture sensor APDS-9960 breakout* hardware repository.
+You can find hardware design for this board in [*Color and gesture sensor APDS-9960 breakout*](https://github.com/SolderedElectronics/Color---gesture-sensor-APDS-9960-breakout-hardware-design) hardware repository.
 
 ### Documentation
 
